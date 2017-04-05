@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'//增加这一句butterknife
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "net.iclassmate.zyxdemo"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+
+    sourceSets {
+        main() {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile files('libs/libammsdk.jar')
+    //Gson解析json字符串
+    compile 'com.google.code.gson:gson:2.8.0'
+    //butterknife注解
+    compile 'com.jakewharton:butterknife:8.4.0'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+    //添加这一句 } ```
+    //Picasso加载图片
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    //zxing扫码
+    compile 'cn.yipianfengye.android:zxing-library:2.0'
+    compile 'com.jaikydota.imagespickers:imagespickers:1.0.0'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    //xbanner的两个library
+    compile 'com.xhb:xbanner:1.2.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    //下拉刷新，基于SwipeRefreshLayout，支持所有的View
+    compile 'com.dinuscxj:recyclerrefreshlayout:1.0.1'
+    //noHttp网络请求框架
+//    compile 'com.yolanda.nohttp:nohttp:1.1.0'
+    compile 'com.yanzhenjie.nohttp:nohttp:1.1.1'
+    compile 'com.yanzhenjie.nohttp:okhttp:1.1.1'
+    //badgeView，消息小红点
+    compile files('libs/badgeview.jar')
+    //mpchart图表库
+    compile 'com.github.PhilJay:MPAndroidChart:v2.1.6'
+    //百度地图
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/baidumapapi_base_v4_2_1.jar')
+    compile files('libs/baidumapapi_cloud_v4_2_1.jar')
+    compile files('libs/baidumapapi_map_v4_2_1.jar')
+    compile files('libs/baidumapapi_radar_v4_2_1.jar')
+    compile files('libs/baidumapapi_search_v4_2_1.jar')
+    compile files('libs/baidumapapi_util_v4_2_1.jar')
+    compile files('libs/locSDK_6.13.jar')
+    //EventBus
+    compile 'de.greenrobot:eventbus:2.4.0'
+    //https://github.com/yanzhenjie/SwipeRecyclerView
+    compile 'com.yanzhenjie:recyclerview-swipe:1.0.3'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+}

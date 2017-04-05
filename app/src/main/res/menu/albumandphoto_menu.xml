@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/albumandphoto_menu_album"
+        android:title="相册"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/albumandphoto_menu_photo"
+        android:title="相机"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/albumandphoto_other"
+        android:title="其他"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

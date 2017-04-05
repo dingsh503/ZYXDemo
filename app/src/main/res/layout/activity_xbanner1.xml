@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200.0dip"
+        app:AutoPlayTime="3000"
+        app:isAutoPlay="true"
+        app:pointNormal="@mipmap/ic_banner_dian"
+        app:pointSelect="@mipmap/ic_banner_current"
+        app:pointsContainerBackground="#44AAAAAA"
+        app:pointsPosition="CENTER"
+        app:tipTextColor="#FFFFFFFF"
+        app:tipTextSize="16.0sp" />
+
+    <!-- 翻页动画单选按钮组 -->
+    <RadioGroup
+        android:id="@+id/transforms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Default"
+            android:textSize="16.0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alpha"
+            android:textSize="16.0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rotate"
+            android:textSize="16.0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_cube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cube"
+            android:textSize="16.0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_flip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flip"
+            android:textSize="16.0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_accordion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accordion"
+            android:textSize="16.0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_zoomfade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZoomFade"
+            android:textSize="16.0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_zoomcenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZoomCenter"
+            android:textSize="16.0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_zoomstack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZoomStack"
+            android:textSize="16.0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_depth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Depth"
+            android:textSize="16.0sp" />
+
+        <RadioButton
+            android:id="@+id/rb_stack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stack"
+            android:textSize="16.0sp" />
+    </RadioGroup>
+
+</LinearLayout>

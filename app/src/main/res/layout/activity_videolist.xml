@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/videolist_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击开始下载一个视频"/>
+
+    <ProgressBar
+        android:id="@+id/videolist_progressBar"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:max="100"/>
+
+</LinearLayout>

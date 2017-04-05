@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="net.iclassmate.zyxdemo">
+
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <!-- SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!-- 这个权限用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <!-- 用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 访问网络，网络定位需要上网-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- SD卡读取权限，用户写入离线定位数据-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="E7KvbT01mVAzHRamhG9YXhel03Fh3jlN"/>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+        </service>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.GsonActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.CreateFileActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.BaseUIActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.TwoCodeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.RecyclerView1Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.RecyclerView2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.RecyclerView3Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.StateButtonActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ImagePickerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.DataActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.WebViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.XBanner1Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.XBanner2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.RefreshActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.NumAnimTextViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.OwnerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.IntentAnimActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.IntentAnim2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.LatestStudyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.NoHttpActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.FeedBackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.AlbumAndPhotoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.AlbumActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.DiyNoHttpActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.BaiduMapActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.MpChartActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.EventBus1Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.EventBus2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.MyIcon1Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.MyIcon2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ButterKnifeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SwipeRecyclerViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.MusicServiceActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name=".service.MusicService"/>
+
+        <activity
+            android:name=".activity.ServiceDemo1Activity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name=".activity.ServiceDemo1"/>
+        <activity
+            android:name=".activity.BannerActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

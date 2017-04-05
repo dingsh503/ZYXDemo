@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/albumandphoto_ll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/albumandphoto_btn_camera"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="从相机里选择" />
+
+        <Button
+            android:id="@+id/albumandphoto_btn_gallery"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="从相册里选择" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/albumandphoto_hsv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/albumandphoto_ll"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/albumandphoto_hsv_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!--<net.iclassmate.zyxdemo.view.FullGridView
+        android:id="@+id/albumandphoto_fgv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/albumandphoto_ll"
+        android:layout_margin="10dp"
+        android:columnWidth="80dp"
+        android:horizontalSpacing="8dp"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="8dp">
+
+    </net.iclassmate.zyxdemo.view.FullGridView>-->
+</RelativeLayout>

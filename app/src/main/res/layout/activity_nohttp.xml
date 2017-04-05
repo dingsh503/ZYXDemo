@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/nohttp_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get请求（不带参数）"/>
+    <Button
+        android:id="@+id/nohttp_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get请求（带参数）"/>
+    <Button
+        android:id="@+id/nohttp_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post请求（带参数\t\t键值对）"/>
+    <Button
+        android:id="@+id/nohttp_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post请求（带参数\t\tjson串）"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="网络请求的数据："
+                android:textColor="@color/red"/>
+            <TextView
+                android:id="@+id/nohttp_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gson解析的数据："
+                android:layout_marginTop="20dp"
+                android:textColor="@color/red"/>
+            <TextView
+                android:id="@+id/nohttp_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

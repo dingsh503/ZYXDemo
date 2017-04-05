@@ -1,0 +1,298 @@
+<resources>
+    <string name="app_name">二维码扫描</string>
+    <string name="fbi">Federal Law provides severe civil and criminal penalties for the unauthorized reproduction,distribution, or exhibition of copyrighted motion picture(Title 17,United States Code,Sections 501 and 508).The Federal Bureau of Investigation investigates allegations of criminal copyright infringement\n(Title 17,United States Code,Sections 506)</string>
+    <string name="gson_data">{
+    "data": {
+        "feedbacks": {
+            "feedbacklist": [
+                {
+                    "comment": "5分",
+                    "createtime": "2014.07.08 13:38",
+                    "score": 5,
+                    "username": "l***2"
+                }
+            ],
+            "totalcount": 1,
+            "totalscore": 5
+        },
+        "liketeamlist": [
+            {
+                "limage": "http://img.pztuan.com/upfile/team/2013/0712/201307120257551465.jpg",
+                "lmarketprice": 3999,
+                "lteamId": 65886,
+                "lteamprice": 518,
+                "ltitle": "爱丽尔婚纱摄影/2本相册/6套服装造型/拍摄不限最低拍摄150张。"
+            },
+            {
+                "limage": "http://img.pztuan.com/upfile/team/2013/0628/201306281115249737.jpg",
+                "lmarketprice": 3380,
+                "lteamId": 57133,
+                "lteamprice": 580,
+                "ltitle": "陶冶摄影/婚纱闺蜜/6组服装造型/拍摄不低于120张！"
+            }
+        ],
+        "partnerteamlist": [
+            {
+                "pteamId": 72825,
+                "pteamprice": 288,
+                "ptitle": "随摄影/共6套服装/准爸准妈共拍/免费肚画/底片全送。"
+            },
+            {
+                "pteamId": 72598,
+                "pteamprice": 2888,
+                "ptitle": "随摄影/拍摄200张/4本相册/品质拍摄/送全新婚纱。"
+            },
+            {
+                "pteamId": 72613,
+                "pteamprice": 3699,
+                "ptitle": "随摄影/送全新婚纱/多外景拍摄/服装不限数量/绝无二次消费！"
+            },
+            {
+                "pteamId": 72638,
+                "pteamprice": 4299,
+                "ptitle": "随摄影/服装不限数量/高品质拍摄260张/送全新婚纱。"
+            },
+            {
+                "pteamId": 72716,
+                "pteamprice": 388,
+                "ptitle": "随摄影/3组服装造型/内外景拍摄/完全透明消费！"
+            }
+        ]
+    },
+    "state": 1
+}</string>
+    <string name="person_data">{
+  "id" : "064ed5acaea946a9b49c3803900221ee",
+  "userInfo" : {
+    "name" : "牛顿我我我我",
+    "fsRoot" : "2d6c6e4003164ee4b83732364daafa7a",
+    "capacity" : "100",
+    "searchMe" : "1",
+    "Introduction" : "1234567890",
+    "city" : "三亚市",
+    "icon" : "http://space-oss.iclassmate.cn/user/ctsi/filestore/icon/064ed5acaea946a9b49c3803900221ee/701ebcf312e44da78ebcaa2ea3cd75e7.jpg@!75",
+    "area" : "",
+    "ryToken" : "Cz2D6Yo6+UmgcC5Ljfq6DthWgv91OOudH+W9ZZOIj9SNNqmPCXQN+3rFmCc4qSUiK/XkZqKzdqPdMrbxwOEeNNkSdNpQnEDhbE4nNZO49Ot/wn2z0qtlrsG9ui1jP+5AScGic3LHzj8=",
+    "province" : "海南省",
+    "dateBirth" : "2000-10-22",
+    "userType" : "1",
+    "gender" : "女",
+    "labels" : null,
+    "phone" : "15801362521",
+    "userCode" : "613441"
+  },
+  "spaceId" : "5eebaf72898341b6a4ac5b850f2197a4"
+}</string>
+    <string name="quanke">
+        {
+    "casaInfo": {
+        "offsetList": [
+            {
+                "classAvgScore": 387.55,
+                "courseName": "总分",
+                "offset": 46.450012,
+                "score": 434.0
+            },
+            {
+                "classAvgScore": 80.68,
+                "courseName": "语文",
+                "offset": 1.3199997,
+                "score": 82.0
+            },
+            {
+                "classAvgScore": 84.76,
+                "courseName": "数学",
+                "offset": 15.239998,
+                "score": 100.0
+            },
+            {
+                "classAvgScore": 83.26,
+                "courseName": "英语",
+                "offset": 11.739998,
+                "score": 95.0
+            },
+            {
+                "classAvgScore": 75.79,
+                "courseName": "物理",
+                "offset": 12.209999,
+                "score": 88.0
+            },
+            {
+                "classAvgScore": 63.05,
+                "courseName": "生化",
+                "offset": 5.950001,
+                "score": 69.0
+            },
+            {
+                "classAvgScore": 138.84,
+                "courseName": "科学",
+                "offset": 18.160004,
+                "score": 157.0
+            }
+        ]
+    },
+    "courseAnaInfo": {
+        "courseScoreList": [
+            {
+                "classAvgScore": 387.55,
+                "classPercentRate": 71,
+                "courseId": 0,
+                "courseName": "总分",
+                "gradeAvgScore": 311.26,
+                "score": 434.0,
+                "scorePercentRate": 76
+            },
+            {
+                "classAvgScore": 80.68,
+                "classPercentRate": 50,
+                "courseId": 201,
+                "courseName": "语文",
+                "gradeAvgScore": 73.98,
+                "score": 82.0,
+                "scorePercentRate": 68
+            },
+            {
+                "classAvgScore": 84.76,
+                "classPercentRate": 87,
+                "courseId": 202,
+                "courseName": "数学",
+                "gradeAvgScore": 69.45,
+                "score": 100.0,
+                "scorePercentRate": 83
+            },
+            {
+                "classAvgScore": 83.26,
+                "classPercentRate": 68,
+                "courseId": 203,
+                "courseName": "英语",
+                "gradeAvgScore": 66.34,
+                "score": 95.0,
+                "scorePercentRate": 79
+            },
+            {
+                "classAvgScore": 75.79,
+                "classPercentRate": 71,
+                "courseId": 204,
+                "courseName": "物理",
+                "gradeAvgScore": 56.63,
+                "score": 88.0,
+                "scorePercentRate": 92
+            },
+            {
+                "classAvgScore": 63.05,
+                "classPercentRate": 61,
+                "courseId": 205,
+                "courseName": "生化",
+                "gradeAvgScore": 44.62,
+                "score": 69.0,
+                "scorePercentRate": 82
+            },
+            {
+                "classAvgScore": 138.84,
+                "classPercentRate": 63,
+                "courseId": 222,
+                "courseName": "科学",
+                "gradeAvgScore": 101.25,
+                "score": 157.0,
+                "scorePercentRate": 87
+            }
+        ],
+        "markInfo": "张承昕同学，您在本次考试中，总分为[434]分，本次共有423人参与测评,您的成绩在班级排名前15名，年级排名前55名，属于[中等组],为了开一次花，铁树付出了比别的树种更长久的努力，坚持不懈地付出与努力，会助你踏上更高的阶梯。"
+    },
+    "gasaInfo": {
+        "offsetList": [
+            {
+                "courseName": "总分",
+                "gradeAvgScore": 311.26,
+                "offset": 122.73999,
+                "score": 434.0
+            },
+            {
+                "courseName": "语文",
+                "gradeAvgScore": 73.98,
+                "offset": 8.019997,
+                "score": 82.0
+            },
+            {
+                "courseName": "数学",
+                "gradeAvgScore": 69.45,
+                "offset": 30.550003,
+                "score": 100.0
+            },
+            {
+                "courseName": "英语",
+                "gradeAvgScore": 66.34,
+                "offset": 28.660004,
+                "score": 95.0
+            },
+            {
+                "courseName": "物理",
+                "gradeAvgScore": 56.63,
+                "offset": 31.369999,
+                "score": 88.0
+            },
+            {
+                "courseName": "生化",
+                "gradeAvgScore": 44.62,
+                "offset": 24.380001,
+                "score": 69.0
+            },
+            {
+                "courseName": "科学",
+                "gradeAvgScore": 101.25,
+                "offset": 55.75,
+                "score": 157.0
+            }
+        ]
+    },
+    "payInfo": {
+        "payStatus": 1
+    },
+    "resultCode": 0,
+    "resultDesc": "成功",
+    "type": "QueryMultiAnalyzingRespInfo",
+    "unbalancedInfo": {
+        "avgDegreeRate": 67,
+        "detailList": [
+            {
+                "avgDegreeRate": 67,
+                "courseName": "语文",
+                "degreeRate": 50,
+                "degreeRateOffset": -17
+            },
+            {
+                "avgDegreeRate": 67,
+                "courseName": "数学",
+                "degreeRate": 87,
+                "degreeRateOffset": 20
+            },
+            {
+                "avgDegreeRate": 67,
+                "courseName": "英语",
+                "degreeRate": 68,
+                "degreeRateOffset": 1
+            },
+            {
+                "avgDegreeRate": 67,
+                "courseName": "物理",
+                "degreeRate": 71,
+                "degreeRateOffset": 4
+            },
+            {
+                "avgDegreeRate": 67,
+                "courseName": "生化",
+                "degreeRate": 61,
+                "degreeRateOffset": -6
+            },
+            {
+                "avgDegreeRate": 67,
+                "courseName": "科学",
+                "degreeRate": 63,
+                "degreeRateOffset": -4
+            }
+        ],
+        "markInfo": "张承昕同学，[科学、生化]是你较薄弱的科目，整体发挥也不太理想，行动是成功的阶梯，不要停止自己的脚步，查漏补缺，优势科目要保持，薄弱科目要加倍努力，相信自己，迈上更高的阶梯。[语文]是你较薄弱的科目，且优势科目也不明显，在加强薄弱科目的学习时，其他科目也不容忽视，水滴石穿，坚持+努力总会有收获的。"
+    }
+}
+    </string>
+</resources>
