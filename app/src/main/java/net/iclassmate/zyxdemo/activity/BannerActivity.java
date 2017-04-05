@@ -74,7 +74,7 @@ public class BannerActivity extends Activity {
         }
         my_viewPager.setAdapter(new ViewpagerAdapter(viewPagerList));
 
-        //卧槽，我终于上传成功了！！！！
+        //卧槽，我终于上传成功了！！！！冷静一下，还有好多不会的
         //添加小圆点
         ivPoints = new ImageView[totalPage];
         for (int i = 0; i < totalPage; i++) {
